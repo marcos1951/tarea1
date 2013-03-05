@@ -1,0 +1,26 @@
+using System;
+
+namespace Tarea2
+{
+    class Programa
+    {
+        static void Main(string[] args)
+        {
+            string name, fbk, dom;
+            int tel;
+          
+            Console.WriteLine("INGRESA TU NOMBRE:");
+            name= Console.ReadLine();
+            Console.WriteLine("\nINGRESA TU DOMICILIO:",name);
+            dom= Console.ReadLine();
+            Console.WriteLine("\nINGRESA EL FACEBOOK:",name);
+            fbk= Console.ReadLine();
+            Console.WriteLine("\nNUMERO DE CELULAR:",tel);
+            tel = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("TU NOMBRE ES: \n TU NUMERO ES:\n TU DOMICILIO ES:\n TU FACEBOOK ES:", name, fbk, dom,tel);
+            Console.Read();
+        }
+    }
+}
+
